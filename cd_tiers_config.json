@@ -13,7 +13,7 @@
       "display_name": "Officer's Dare",
       "default_allowed_tiers": ["27164484"],
       "version_access": {
-        "0.1": ["27164484"]
+        "0.1": ["27164484", "27164453"]
       }
     }
   }
