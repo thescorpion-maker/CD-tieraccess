@@ -6,14 +6,33 @@
     "27164394": "Dare Challenger",
     "27164419": "Dare Master",
     "27164453": "Dare Legend",
-    "27164484": "Dare Immortal"
+    "27164484": "Dare Immortal",
+    "28322167": "Dare Immortal (new id)"
   },
   "games": {
     "officers_dare": {
       "display_name": "Officer's Dare",
-      "default_allowed_tiers": ["27164484"],
+      "default_allowed_tiers": [
+        "27164484"
+      ],
       "version_access": {
-        "0.1": ["27164484", "27164453"]
+        "0.1": [
+          "27164484",
+          "27164453"
+        ]
+      }
+    },
+    "couples_dare": {
+      "display_name": "Couple's Dare",
+      "default_allowed_tiers": [
+        "27164484",
+        "28322167"
+      ],
+      "version_access": {
+        "0.1": [
+          "27164484",
+          "28322167"
+        ]
       }
     }
   }
