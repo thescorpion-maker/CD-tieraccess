@@ -7,19 +7,39 @@
     "27164419": "Dare Master",
     "27164453": "Dare Legend",
     "27164484": "Dare Immortal",
-    "28322167": "Dare Immortal (new id)"
+    "28322167": "Dare Immortal / Parrot Guardians",
+    "28322135": "Parrot Elders",
+    "28322174": "Parrot Crew",
+    "28322183": "Parrot Pals"
   },
   "games": {
     "officers_dare": {
       "display_name": "Officer's Dare",
-      "default_allowed_tiers": [
-        "27164484"
-      ],
-      "version_access": {
-        "0.1": [
+      "default_allowed_tiers": {
+        "hs": [
           "27164484",
-          "27164453"
+          "27164453",
+          "27164419",
+          "28322167"
+        ],
+        "pg": [
+          "28322167",
+          "28322135"
         ]
+      },
+      "version_access": {
+        "0.1": {
+          "hs": [
+            "27164484",
+            "27164453",
+            "27164419",
+            "28322167"
+          ],
+          "pg": [
+            "28322167",
+            "28322135"
+          ]
+        }
       }
     },
     "couples_dare": {
